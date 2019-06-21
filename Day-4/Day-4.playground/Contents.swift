@@ -52,12 +52,18 @@ struct point
     var y : Int
     
     var Sum:point{
+        
         get{
             return point(x+y,x+y)
         }
         set(newxy){
             x = newxy.x
             y = newxy.y
+        }
+        
+        willSet
+        {
+            
         }
     }
     
