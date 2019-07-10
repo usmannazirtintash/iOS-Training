@@ -24,7 +24,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="RedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XWY-P4-2rQ"/>
-                                    <segue destination="A3J-5m-sQO" kind="show" identifier="toBlue" id="Iwb-fb-HPU"/>
+                                    <segue destination="A3J-5m-sQO" kind="presentation" identifier="toBlue" modalTransitionStyle="partialCurl" id="Iwb-fb-HPU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJT-7L-vwr">
